@@ -3,6 +3,17 @@
    License: none (public domain)
 */
 
+@font-face {
+	font-family: 'gotham';
+	src: url('Fonts/Gotham-Book.ttf'); /* IE9 Compat Modes */
+	}
+@font-face {
+	font-family: 'caslon';
+	src: url('Fonts/Adobe%20Caslon%20Regular.otf'); /* IE9 Compat Modes */
+	}
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,6 +32,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	margin-left: auto;
+	margin-right: auto;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -29,15 +42,19 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	margin-left: auto;
+	margin-right: auto;
 }
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
+
 }
 blockquote:before, blockquote:after,
+
 q:before, q:after {
 	content: '';
 	content: none;
@@ -47,11 +64,100 @@ table {
 	border-spacing: 0;
 }
 
-/* Add Styles Here */
-body { font-family:Georgia; font-size:14px; }
-section#content { margin:0 auto; width:960px; padding:50px 50px; }
-a {text-decoration:none; color:#669933}
 
-h1 { font-family:Helvetica; text-transform:uppercase; font-size:50px; font-weight:bold; color:black;  }
-h2 { font-size:25px; font-weight:bold; color:black;  padding-top:30px;}
-p { font-size:20px; padding-top:10px; padding-left:50px; color:#cccccc;}
+/* Add Styles Here */
+
+#header {
+	background-color: black;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo{
+	width: 250px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+#title {
+width: 465px;
+float: left;	
+}
+
+#nav {
+	float: right;
+	text-align: right;
+}
+
+#about {
+	width: 465px;
+	float: right;
+	text-align: left;
+}
+
+
+#content { 
+padding-top: 100px;
+width:960px; 
+margin-left: auto;
+margin-right: auto;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+a {text-decoration:none; color:black;}
+
+a:hover{
+color:#acacac;
+}
+
+h1 { 
+font-family:'gotham'; 
+text-transform:uppercase; 
+font-size:20px; 
+font-weight:bold; 
+font-weight: 100;
+text-align: right;
+padding-top: 10px;
+}
+
+h2 { 
+font-weight: 100;
+font-family:'caslon'; 
+font-size:12pt;  
+color:#acacac;
+padding-top: 10px; 
+}
+
+h3 { 
+font-family:'gotham'; 
+text-transform:uppercase; 
+font-size:20px; 
+font-weight:bold; 
+font-weight: 100;
+text-align: left;
+padding-top: 10px;
+}
+#about p {
+padding-top: 10px;
+}
+
+#about p:hover {
+padding-top: 10px;
+color: #acacac;
+}
+
+
+
+p {
+	font-family: 'caslon';
+	font-size: 12pt;
+	line-height: 15pt;
+}
