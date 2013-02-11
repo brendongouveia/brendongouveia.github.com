@@ -1,0 +1,42 @@
+body {
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav {
+width: 960px;
+}
+
+nav li{
+	font-family: Helvetica;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+p {
+	font-family:Georgia;
+	font-size: 11pt;
+	line-height: 1.3em
+}
+
+h1 {
+	font-family: Helvetica;
+	font-size: 14pt;
+}
+
+#cats {
+	width: 475px;
+	float: left;
+}
+
+
+#dogs {
+	width: 475px;
+	float: left;
+}
