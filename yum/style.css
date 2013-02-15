@@ -33,18 +33,50 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
+p {
+	line-height: 1.5;
+}
+
+h1 {
+	font-family: helvetica;
+	font-size: 14pt;
+	padding-bottom: 10px;
+}
+
+#paella1 {
+	width:484px;
+	float: left; 
+}
+
+#ingredients {
+	float: left;
+	width:484px;
+}
+
+#directions {
+	width: 968px;
+	float: left;
+}
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;

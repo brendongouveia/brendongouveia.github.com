@@ -11,6 +11,7 @@ width: 960px;
 nav li{
 	font-family: Helvetica;
 	text-decoration: none;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	display: inline-block;
@@ -30,13 +31,41 @@ h1 {
 	font-size: 14pt;
 }
 
+#logo {
+	width: 445px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 #cats {
-	width: 475px;
+	width: 465px;
+	float: left;
+}
+
+
+/*picture----------------------------------*/
+#cat {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 465px;
+	height: 300px;
 	float: left;
 }
 
 
 #dogs {
-	width: 475px;
-	float: left;
+	width: 465px;
+	float: right;
+}
+
+#dog {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	width: 465px;
+	height: 300px;
+	float: right;
 }
