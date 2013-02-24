@@ -31,29 +31,16 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
 }
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Add Styles Here */
-body { font-family:Times; font-size:14px; }
-section#content { height: 200px; margin:0 auto; width:960px; padding:20px 0px; padding-top:200px;}
 
 h1: hover {
-	color:blue;
+	color:black;
 }
 
 h1 { 
@@ -61,7 +48,7 @@ h1 {
 		font-size:40px;  
 		color:black; 
 		text-align:center; 
-		padding-top: 60px;
+		padding-top: 20px;
 		color: #A6A6A6;
 		}
 h2 { 
@@ -72,4 +59,21 @@ h2 {
 		color: #A6A6A6;
 		}
 
-p { padding-bottom:10px; }
+p { 
+text-align: center;
+padding-top: 10px;
+padding-bottom:10px; 
+font-family: Georgia;
+font-size: 12pt;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 60px;
+}
+
+#self {
+	margin-left: auto;
+	margin-right: auto;
+}
