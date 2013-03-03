@@ -26,6 +26,30 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+h1 {
+	font-family: Helvetica;
+	font-size: 18pt;
+	line-height: 1.1;
+}
+
+
+h2 {
+	font-family: Helvetica;
+	font-size: 10pt;
+	padding-bottom: 20px;
+	color: gray;
+	padding-top: 3px;
+}
+
+p {
+	width: 476px;
+	text-wrap:none;
+	font-family: Helvetica;
+	font-size: 9pt;
+	line-height: 12pt;
+	padding-bottom: 6pt;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -50,7 +74,37 @@ table {
 	border-spacing: 0;
 }
 
+#main-content {
+	width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px
+}
 
+#left {
+	width: 476px;
+	float: left;
+}
+
+#left img {
+	width: 200px;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+#right {
+	width: 476px;
+	float: right;
+}
+
+#right img {
+	width: 200px;
+	height: auto;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
 /* END RESET */
 
 
