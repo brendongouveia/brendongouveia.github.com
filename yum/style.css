@@ -64,11 +64,12 @@ p {
 }
 
 h1 {
-	padding-top: 20px;
+	padding-top: 10px;
 	font-family: helvetica;
-	font-size: 24pt;
-	padding-bottom: 10px;
+	font-size: 20pt;
+	padding-bottom: 5px;
 	text-align: center;
+	color: gray; 
 }
 
 h2 {
@@ -95,9 +96,10 @@ h2 {
 }
 
 #ingredients {
-	float: left;
+	float: right;
 	width:476px;
 	padding-top: 10px;
+	padding-left: 10px;
 }
 
 # directions {
@@ -116,12 +118,16 @@ a {
 	text-decoration: none;
 	font-family:helvetica;
 	font-size: 12pt;
+	color: gray;
 }
 
 
-nav {
+nav ul li {
 	font-family: helvetica;
+	font-style: bold;
 	font-size: 13pt;
+	padding-top: 15pt;
+	text-align: left;
 }
 /* END RESET */
 
