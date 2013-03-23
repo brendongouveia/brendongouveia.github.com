@@ -174,11 +174,13 @@ font-family: helvetica;
 
 #footer-wrapper {
 	background-color: #8a5c36;
-
+	width: auto;
+	height: auto;
 }
 
 #site-footer {
 	width: 968px;
+	height: 150px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -200,6 +202,7 @@ font-family: helvetica;
 	}
 
 #footer-follow {
+	margin-top: 20px;
 	width: 300px;
 	float: right;
 }	
