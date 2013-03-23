@@ -33,20 +33,78 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	width: 968px;
-	margin-left: auto;
-	margin-right: auto;
+	background-image:url(images/background.jpeg);
+	background-repeat:repeat;
 }
 
  ul {
 	list-style: none;
 }
+@font-face {
+    font-family: 'Caecilia-Light';
+    src: url('Fonts/CaeciliaLTStd-Light.otf');
+    font-weight:100;
+}
+
+
+@font-face {
+    font-family: 'Caecilia-Roman';
+    src: url('Fonts/CaeciliaLTStd-Roman.otf');
+    font-weight:400;
+}
+
+
+@font-face {
+    font-family: 'Caecilia-Heavy';
+    src: url('Fonts/CaeciliaLTStd-Heavy.otf');
+    font-weight:900;
+}
+
+@font-face {
+    font-family: 'DINPro-Medium';
+    src: url('Fonts/DINPro-Medium.otf');
+    font-weight:400;
+}
+
+#container { 
+	width: 760px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	box-shadow: 0px 0px 10px #7a7a7a;
+	opacity: 30;
+}
+
+#content {
+	width: 760px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	box-shadow: 0px 0px 10px #7a7a7a;
+	opacity: 30;
+
+}
 
 p {
 	line-height: 1.;
-	font-family: Georgia;
+	font-family: 'Caecilia-Light';
 	font-size: 11pt;
+}
 
+h1 {
+font-family: 'Caecilia-Heavy';
+padding-bottom: 5px;
+font-size: 10pt;
+	
+}
+
+li {
+font-family: 'Caecilia-Light';
+padding-bottom: 5px;
+font-size: 10pt;
+color: #393939;
 }
 
 blockquote, q {
@@ -65,23 +123,41 @@ p {
 
 h1 {
 	padding-top: 10px;
-	font-family: helvetica;
+	font-family: 'Caecilia-Heavy';
 	font-size: 20pt;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	text-align: center;
 	color: gray; 
 }
 
 h2 {
-	font-family: helvetica;
+	font-family: 'Caecilia-Heavy';
 	font-size: 12pt;
 	padding-bottom: 10px;
+}
+
+#ingredients {
+	float: left;
+	width:320px;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin: 10px;
+	height: auto;
+}
+
+#directions {
+	margin: 10px;
+	padding-top: 10px;
+	width: 320px;
+	float: right;
+	height: auto;
 }
 
 #paella1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width:968px;
+	width:760px;
+	height: 275px;
 	float: left; 
 	margin-right: auto;
 	margin-left: auto;
@@ -90,22 +166,11 @@ h2 {
 #chaurico {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	width:968px;
+	width:760px;
+	float: left; 
+	height: 275px;
 	margin-left: auto; 
 	margin-right: auto;
-}
-
-#ingredients {
-	float: right;
-	width:476px;
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-# directions {
-	padding-top: 10px;
-	width: 476px;
-	float: right;
 }
 
 table {
@@ -116,19 +181,39 @@ table {
 a {
 	display: inline block;
 	text-decoration: none;
-	font-family:helvetica;
-	font-size: 12pt;
+	font-family:'Caecilia-Heavy';
+	font-size: 10pt;
 	color: gray;
 }
+a hover{
+	color: white;
+}
 
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 760px;
+}
 
 nav ul li {
-	font-family: helvetica;
+	font-family: 'Caecilia-Heavy';
 	font-style: bold;
 	font-size: 13pt;
-	padding-top: 15pt;
-	text-align: left;
+	padding: 10px;
+	float: left;
+	text-align: center;
+	background-color: #393939;
+	border-radius: 10px;
+	margin: 20px;
 }
+
+nav ul li hover {
+	color: white;
+}
+
+
+
+
 /* END RESET */
 
 
