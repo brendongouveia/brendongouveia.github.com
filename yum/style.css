@@ -67,41 +67,43 @@ body {
 }
 
 #container { 
+	background-color: white;
 	width: 760px;
-	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
 	box-shadow: 0px 0px 10px #7a7a7a;
-	opacity: 30;
 }
 
 #content {
 	width: 760px;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	box-shadow: 0px 0px 10px #7a7a7a;
-	opacity: 30;
-
 }
 
 p {
-	line-height: 1.;
+	line-height: 1.1;
 	font-family: 'Caecilia-Light';
 	font-size: 11pt;
 }
+
+li {	
+	line-height: 1.1;
+	font-family: 'Caecilia-Light';
+	font-size: 11pt;
+	padding-bottom: 7pt;
+	color: #393939;
+}
+
 
 h1 {
 font-family: 'Caecilia-Heavy';
 padding-bottom: 5px;
 font-size: 10pt;
+color: #393939;
 	
 }
 
-li {
-font-family: 'Caecilia-Light';
+a{
+font-family: 'Caecilia-Heavy';
 padding-bottom: 5px;
 font-size: 10pt;
 color: #393939;
@@ -128,12 +130,14 @@ h1 {
 	padding-bottom: 20px;
 	text-align: center;
 	color: gray; 
+	letter-spacing: 2pt;
 }
 
 h2 {
 	font-family: 'Caecilia-Heavy';
 	font-size: 12pt;
 	padding-bottom: 10px;
+	letter-spacing: 1pt;
 }
 
 #ingredients {
@@ -185,7 +189,7 @@ a {
 	font-size: 10pt;
 	color: gray;
 }
-a hover{
+a:hover{
 	color: white;
 }
 
