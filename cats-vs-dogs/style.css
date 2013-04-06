@@ -1,8 +1,63 @@
 
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('typefaces/leaguegothic-condensedregular-webfont.eot');
+    src: url('typefaces/leaguegothic-condensedregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('typefaces/leaguegothic-condensedregular-webfont.woff') format('woff'),
+         url('typefaces/leaguegothic-condensedregular-webfont.ttf') format('truetype'),
+         url('typefaces/leaguegothic-condensedregular-webfont.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2{
+
+font-family: 'league_gothicCnRg';
+font-weight: normal;
+font-style: normal;
+font-size: 120pt;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+margin-top: 0px;
+
+
+}
+
+h3{
+	
+}
+
+#vs{
+color: grey;
+font-family:Georgia; 
+font-weight:bold; 
+font-style:italic;
+font-size: 60pt;
+border-top: double 5px grey;
+border-bottom: double 5px grey;
+}
+
 #content {
 	width: 968px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+#logo {
+	text-align: center;
+	font-family:'league_gothicCnRg'; 
+	width: 968px;
+	height: 200px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
 }
 
 
@@ -46,14 +101,15 @@ nav ul{
 
 }
 
+
 nav {
 width: 968px;
 height: 40px;
-margin-top: 40px;
+margin-top: 10px;
 border-top: solid 2px black;
 border-bottom: solid 2px black;
-padding-bottom: 15px;
-margin-bottom: 30px;
+padding-bottom: 10px;
+margin-bottom: 10px;
 margin-left: auto;
 margin-right: auto;
 
@@ -71,15 +127,6 @@ h1 {
 	font-size: 14pt;
 }
 
-
-#logo {
-	width: 445px;
-	height: 95px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
 
 
 #cats {
