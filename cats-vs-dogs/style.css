@@ -16,7 +16,7 @@ h2{
 font-family: 'league_gothicCnRg';
 font-weight: normal;
 font-style: normal;
-font-size: 120pt;
+font-size: 100pt;
 padding-top: 0px;
 padding-bottom: 0px;
 margin-bottom: 0px;
@@ -34,13 +34,15 @@ color: grey;
 font-family:Georgia; 
 font-weight:bold; 
 font-style:italic;
-font-size: 60pt;
+font-size: 50pt;
 border-top: double 5px grey;
 border-bottom: double 5px grey;
 }
 
 #content {
-	width: 968px;
+	width:100%; 
+	margin:0 auto; 
+	max-width: 968px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -49,7 +51,9 @@ border-bottom: double 5px grey;
 #logo {
 	text-align: center;
 	font-family:'league_gothicCnRg'; 
-	width: 968px;
+	width:100%; 
+	margin:0 auto; 
+	max-width: 968px;	
 	height: 200px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -62,7 +66,9 @@ border-bottom: double 5px grey;
 
 
 body {
-	width: 968px;
+	width:100%; 
+	margin:0 auto; 
+	max-width: 968px;	
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -80,6 +86,12 @@ nav ul li{
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
+	margin-top: 10px;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
 
 /*
 	border-top: solid 2px black;
@@ -103,13 +115,16 @@ nav ul{
 
 
 nav {
-width: 968px;
-height: 40px;
-margin-top: 10px;
-border-top: solid 2px black;
-border-bottom: solid 2px black;
-padding-bottom: 10px;
-margin-bottom: 10px;
+width:100%; 
+margin:0 auto; 
+max-width: 968px;
+min-width: 240px;
+
+height: 100%;
+max-height: 100px;
+min-height: 40px;
+
+
 margin-left: auto;
 margin-right: auto;
 
@@ -130,30 +145,43 @@ h1 {
 
 
 #cats {
-	width: 465px;
+	width: 100%;
 	float: left;
+	max-width: 465px;
+	min-width: 240px;
+	margin:1%; 
+	display: inline;
+	padding-top: 15px;
 }
 
 
 /*picture----------------------------------*/
 #cat {
-	padding-bottom: 15px;
-	padding-top: 15px;
-	width: 465px;
-	height: 300px;
-	float: left;
+	height: 100%;
+	float: left;	
+	width:100%; 
+	margin:1%; 
+	max-width: 465px;
+	min-width: 240px;
+
 }
 
 
 #dogs {
-	width: 465px;
-	float: right;
+	width:100%; 
+	margin:0 auto; 
+	max-width: 465px;
+	float: left;
+	display: inline;
+	min-width: 240px;
+	margin:1%; 
 }
 
 #dog {
 	padding-bottom: 15px;
 	padding-top: 15px;
 	width: 465px;
-	height: 300px;
+	height: 100%;
 	float: right;
+	margin:1%; 
 }
