@@ -25,7 +25,27 @@ table {
 }
 
 body {
-	width: 100%
+	width: 100%;
+	background-color: #dbe3e3;
+	
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 27pt;
+	font-weight: 300;
+	color: white;
+	text-shadow: 0px 0px 7px #000;
+}
+
+h2{
+	font-family: helvetica;
+	font-size: 14pt;
+	color: white;
+	font-weight: 100;
+	text-shadow: 0px 0px 5px #000;
+	padding-top: 20px;
+
 }
 
 
@@ -83,18 +103,48 @@ nav {
 
 #content img{
 width: 100%;
-	
+border-bottom: #bdcaca solid 6px;
+
 }
 /*body----------------------------------------------------*/
 
-#stuff{
-width: 960px;
+#container{
+max-width: 960px;
+max-height: auto;
+min-width: 320px;
+min-height: auto;
 margin-left: auto;
 margin-right: auto;
-z-index: 1;	
+margin-top: 100px;
+}
+
+#bar{
+	background-color: #f43944;
+	width: 170px;
+	height:17px;
+	margin-bottom: 10px;
 }
 
 #tagline{
-width:500px;
+width:520px;
 float: left;
+}
+
+#bold {
+	font-family: helvetica;
+	font-size: 27pt;
+	font-weight: 500;
+	color: white;
+	text-shadow: 0px 0px 7px #000
+}
+
+#button{
+	font-family: helvetica;
+	color: white;
+	padding:13px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-top: 30px;
+	background-color: #f43944;
+	float: right;
 }
