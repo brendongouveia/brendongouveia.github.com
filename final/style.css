@@ -50,6 +50,7 @@ h2{
 a {
 	text-decoration: none;
 	color: white;
+	font-family: helvetica;
 }
 
 
@@ -82,12 +83,12 @@ padding-top: 25px;
 nav ul li {
 display: inline;
 float: left;
-text-decoration: none;	
+	text-decoration: none;	
 padding-left: 25px;
 font-family: Helvetica;
 font-size: 14px;
 color: white;
-margin-top: 10px;
+margin-top: 5px;
 letter-spacing: .5px;
 }
 
@@ -111,12 +112,12 @@ nav {
 
 nav ul li a:hover{
 	border-top: #e74047 solid 15px;
-	padding-top: 61px;
+	padding-top: 56px;
 }
 
 nav ul li a:active{
 	border-top: #e74047 solid 15px;
-	padding-top: 61px;
+	padding-top: 56px;
 }
 
 
@@ -177,9 +178,40 @@ float: left;
 	margin-top: 30px;
 	background-color: #f43944;
 	float: right;
+}
+
+
+
+#sub-bar {
+	text-decoration: none;
+
+}
+	#sub-bar ul li a {
+	width: 300px;
+	height: 134px; 
+	display: inline;
+	float: left;
+	background-color: #bdcaca;
+	text-decoration: none;
+	opacity:0.6;	
+	margin: 10px;
+}
+
+
+	#sub-bar ul li {
+	text-decoration: none;	
+	display: inline;
+	float: left;
 
 }
 
-#sub-bar {}
-	
-
+#subcontainer {
+	width: 960px;
+	height: 134px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 400px;
+}
+#sub-bar ul li a:hover {
+	opacity:1;		
+}
