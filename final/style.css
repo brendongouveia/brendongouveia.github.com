@@ -75,6 +75,7 @@ a {
 width: 960px;
 margin-left: auto;
 margin-right: auto;	
+padding-top: 0px;
 }
 
 header{
@@ -84,6 +85,8 @@ header{
 	padding: 0px;
 	margin: 0px;
 	border-bottom: #bdcaca solid 6px;
+	position: fixed;
+	opacity: .95;
 }
 
 
@@ -147,6 +150,7 @@ nav ul li a:active{
 
 #content img{
 width: 100%;
+padding-top: 110px;
 border-bottom: #bdcaca solid 6px;
 
 }
@@ -159,7 +163,8 @@ min-width: 320px;
 min-height: auto;
 margin-left: auto;
 margin-right: auto;
-margin-top: 80px;
+padding-top: 180px;
+/* margin-top: 80px; */
 }
 
 #bar{
@@ -271,8 +276,7 @@ footer p:hover {
 #pages {
 	float: left;
 	width: 100%;
-	max-width: 319px;
-	min-width: 240px;
+	width: 319px;
 	border-right: solid 1px #bdcaca;
 	margin-top: 60px;
 	margin-bottom: 20px;
@@ -282,9 +286,8 @@ footer p:hover {
 #socialnetwork {
 		float: left;
 		width: 100%;
-		max-width: 319px;
-		min-width: 240px;
-		margin-top: 60px;
+		width: 319px;
+				margin-top: 60px;
 		margin-bottom: 20px;
 
 }
@@ -293,9 +296,34 @@ footer p:hover {
 		border-left: solid 1px #bdcaca;
 		float: left;
 		width: 100%;
-		max-width: 319px;
-		min-width: 240px;
+		width: 319px;
 		margin-top: 60px;
 		margin-bottom: 20px;
 
+}
+
+
+/*---------------our company----------------------------------------------------------------------------*/
+
+#companycontent {
+	max-width: 960px;
+	min-width: 320px;
+	padding-top: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Paul {
+	width: auto;
+	float: left;
+}
+
+#Dave {
+width: auto;
+float: left;
+}
+
+#Mike {
+width: auto;
+	float: left;
 }
