@@ -255,11 +255,12 @@ footer p {
 	font-size: 11pt;
 	color: #343a3a;
 	font-weight: 100;
-	padding-left: 15px;
+	padding-left: 20px;
 }
 
 footer h3 {
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-bottom: 5px;
 }
 
 footer p:hover {
@@ -283,13 +284,13 @@ footer p:hover {
 		width: 100%;
 		max-width: 319px;
 		min-width: 240px;
-		border-right: solid 1px #bdcaca;
 		margin-top: 60px;
 		margin-bottom: 20px;
 
 }
 
 #getintouch {
+		border-left: solid 1px #bdcaca;
 		float: left;
 		width: 100%;
 		max-width: 319px;
