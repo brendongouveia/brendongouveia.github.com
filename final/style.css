@@ -44,8 +44,7 @@ h2{
 	font-size: 14pt;
 	color: white;
 	font-weight: 100;
-	text-shadow: 0px 0px 5px #000;
-	padding-top: 20px;
+	
 }
 
 
@@ -56,6 +55,7 @@ h3{
 	color: #343a3a;
 	font-weight: 500;
 	letter-spacing: 1px;	
+	margin-top: 20px;
 }
 
 
@@ -74,13 +74,13 @@ p {
 hr {
 	margin-top: 30px;
 	margin-bottom: 30px;
-	
+	background-color: #343a3a;
 }
 
 li {
-	text-decoration: none;
-}
 
+list-style-type: none;
+}
 
 /* header----------------------------------------------------*/
 
@@ -113,7 +113,7 @@ padding-top: 25px;
 nav ul li {
 display: inline;
 float: left;
-	text-decoration: none;	
+text-decoration: none;	
 padding-left: 25px;
 font-family: Helvetica;
 font-size: 14px;
@@ -198,6 +198,11 @@ padding-top: 180px;
 #tagline{
 width:520px;
 float: left;
+}
+#tagline h2 {
+
+text-shadow: 0px 0px 5px #000;
+padding-top: 20px;
 }
 
 #bold {
@@ -339,23 +344,20 @@ footer p:hover {
 }
 
 
-h4 {
-display:none;
+#companycontent h2{
+ font-family: helvetica;
+ font-size: 12pt;
+ color:#343a3a;
+ padding-bottom:10px;
 }
 
 
-h4:hover {
-	font-family: helvetica;
-	font-size: 9pt;
-	color:white;
-	
-}
 
 #leadership {
-	border-top: solid #343a3a 1px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 100%;
+	height: 400px;
 	margin-left: auto;
 	margin-left: auto;	
 }
@@ -366,7 +368,6 @@ margin-top: 5px;
 }
 
 
-
 #leadershipprodile {
 	display: inline-block;
 }
@@ -375,26 +376,31 @@ margin-top: 5px;
 #Paul {
 	width: 240px;
 	height: auto;
-	background-image: url(images/ourcompany/placeholder.png)
 	float: left;
 	margin-left: 35px;
 	margin-right: 35px;
 }
 
 #Dave {
-width: 240px;
-float: left;
+	width: 240px;
+	float: left;
 	margin-left: 35px;
 	margin-right: 35px;
 	
 }
 
 #Mike {
-width: 240px;
-float: left;
+	width: 240px;
+	float: left;
 	margin-left: 35px;
 	margin-right: 35px;
 }
+
+
+
+
+
+
 
 
 
@@ -434,6 +440,13 @@ height: 100%;
 	text-shadow: 0px 0px 0px #000;
 
 }
+
+
+
+
+
+
+
 
 /*--------Form-----------*/
 #form {
