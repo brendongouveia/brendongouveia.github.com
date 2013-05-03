@@ -52,12 +52,11 @@ h2{
 
 h3{
 	font-family: helvetica;
-	font-size: 14pt;
+	font-size: 13pt;
 	color: #343a3a;
 	font-weight: 500;
+	letter-spacing: 1px;	
 }
-
-
 
 
 a {
@@ -66,6 +65,21 @@ a {
 	font-family: helvetica;
 }
 
+p {
+	font-family: helvetica;
+	font-size: 11pt;
+	line-height: 14pt;
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+li {
+	text-decoration: none;
+}
 
 
 /* header----------------------------------------------------*/
@@ -140,6 +154,9 @@ nav ul li a:active{
 /*body----------------------------------------------------*/
 
 
+
+
+
 #content{
 		width: 100%;
 		height: 100%;
@@ -154,13 +171,17 @@ padding-top: 110px;
 border-bottom: #bdcaca solid 6px;
 
 }
-/*body----------------------------------------------------*/
+
+
+
+
+/*body------------------------------------------------ i changed from auto to 100%----*/
 
 #container{
 max-width: 960px;
-max-height: auto;
+max-height: 100%;
 min-width: 320px;
-min-height: auto;
+min-height: 100%;
 margin-left: auto;
 margin-right: auto;
 padding-top: 180px;
@@ -249,9 +270,11 @@ footer {
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
-	width: auto;
+	width: 100%;
 	height: auto;
+	margin-top: 20px;
 	padding-top: 20px;
+
 
 }
 
@@ -305,25 +328,177 @@ footer p:hover {
 
 /*---------------our company----------------------------------------------------------------------------*/
 
+
+
 #companycontent {
 	max-width: 960px;
 	min-width: 320px;
-	padding-top: 180px;
+	margin-top: 180px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+
+h4 {
+display:none;
+}
+
+
+h4:hover {
+	font-family: helvetica;
+	font-size: 9pt;
+	color:white;
+	
+}
+
+#leadership {
+	border-top: solid #343a3a 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	margin-left: auto;
+	margin-left: auto;	
+}
+
+
+#leadership hr{
+margin-top: 5px;
+}
+
+
+
+#leadershipprodile {
+	display: inline-block;
+}
+
+
 #Paul {
 	width: 240px;
+	height: auto;
+	background-image: url(images/ourcompany/placeholder.png)
 	float: left;
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
 #Dave {
 width: 240px;
 float: left;
+	margin-left: 35px;
+	margin-right: 35px;
+	
 }
 
 #Mike {
 width: 240px;
+float: left;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+
+
+
+
+
+
+/*----------------------------Get in touch-------------------------*/
+
+
+#contact-info {
+text-decoration: none;
+float: left;
+width: 100%;
+max-width:500px;
+min-width: 240px;
+height: 100%; 
+
+
+}
+
+#contact-info h1{
+	text-decoration: none;
+	font-family: helvetica;
+	font-size: 27pt;
+	font-weight: 500;
+	color: #343a3a;
+	text-shadow: 0px 0px 0px #000;
+
+}
+
+#contact-info h2{
+
+	font-family: helvetica;
+	font-size: 15pt;
+	color: #343a3a;
+	text-shadow: 0px 0px 0px #000;
+
+}
+
+/*--------Form-----------*/
+#form {
+	width:100%;
+	max-width: 460px;
+	min-width: 240px;
+	height: 100%;
 	float: left;
+	
+}
+
+
+
+label {
+	display: none;
+	
+float: left; 
+	clear:left; 
+	margin: 11px 20px 0 0; 
+	width: 95px;
+	text-align: right; 
+	font-size: 16px; 
+	color: #445668; 	
+}
+
+input {
+	max-width: 300px; 
+	min-width: 240px;
+	width: 100%;	
+	height: 35px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #bdcaca;
+	font-family: sans-serif; 
+	font-size: 16px; 
+	color: #f3f3f3; 
+	float: right;
+}
+	
+textarea {
+	max-width: 300px; 
+	min-width: 240px;
+	width: 100%;
+	height: 170px; 
+	padding: 12px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #becaca;
+	font-family: sans-serif; 
+	font-size: 12pt; 
+	color: #e84149; 
+	float: right;
+}
+	
+input:focus, textarea:focus {
+	border: none;
+	background: #343a3a;
+	color: white;
+
+
+}
+
+input[type=submit] {
+	width: 10px; 
+	height: 10px; 
+	float: right; 
+	background-color: #e84149;
+	border: none;
 }
