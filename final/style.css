@@ -536,9 +536,12 @@ margin-top: 5px;
 #clients hr{
 margin-top: 5px;
 width: 100%;
-	min-width: 320px;
-	max-width: 960px;
-	position: relative;
+margin-top: 5px;
+height: 1px;
+width: 100%;
+color: #bdcaca;
+background-color: #bdcaca;
+
 }
 
 #clientlist li img {
@@ -574,6 +577,11 @@ width: 100%;
 
 #partners hr{
 margin-top: 5px;
+height: 1px;
+width: 100%;
+color: #bdcaca;
+background-color: #bdcaca;
+
 }
 
 #partnerlist li img {
