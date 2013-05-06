@@ -98,6 +98,7 @@ width: 960px;
 margin-left: auto;
 margin-right: auto;	
 padding-top: 0px;
+margin-top: 0px;
 }
 
 header{
@@ -140,6 +141,7 @@ nav ul img{
 }
 
 nav {
+
 	padding-top: 20px;
 	float: right;	
 }
@@ -153,10 +155,7 @@ nav ul li a:hover{
 	padding-top: 56px;
 }
 
-nav ul li a:active{
-	border-top: #e74047 solid 15px;
-	padding-top: 56px;
-}
+
 
 
 /*body----------------------------------------------------*/
@@ -186,7 +185,7 @@ min-width:
 /*body------------------------------------------------ i changed from auto to 100%----*/
 
 #goodfloating {
-	padding-top: 5%;
+	padding-top: 1%;
 }
 
 
