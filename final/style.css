@@ -44,9 +44,8 @@ h2{
 	font-size: 14pt;
 	color: white;
 	font-weight: 100;
-	
-}
 
+}
 
 
 h3{
@@ -69,6 +68,7 @@ p {
 	font-family: helvetica;
 	font-size: 11pt;
 	line-height: 14pt;
+	margin-bottom: 6pt;
 }
 
 hr {
@@ -82,7 +82,15 @@ li {
 list-style-type: none;
 }
 
-/* header----------------------------------------------------*/
+
+
+#fixfooter {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* ----------------------------------------------------header*/
 
 
 #navbar{
@@ -169,7 +177,7 @@ nav ul li a:active{
 width: 100%;
 padding-top: 110px;
 border-bottom: #bdcaca solid 6px;
-
+min-width: 
 }
 
 
@@ -177,11 +185,17 @@ border-bottom: #bdcaca solid 6px;
 
 /*body------------------------------------------------ i changed from auto to 100%----*/
 
+#goodfloating {
+	padding-top: 5%;
+}
+
+
+
 #container{
 max-width: 960px;
-max-height: 100%;
+max-height: auto;
 min-width: 320px;
-min-height: 100%;
+min-height: auto;
 margin-left: auto;
 margin-right: auto;
 padding-top: 180px;
@@ -199,6 +213,7 @@ padding-top: 180px;
 width:520px;
 float: left;
 }
+
 #tagline h2 {
 
 text-shadow: 0px 0px 5px #000;
@@ -216,9 +231,10 @@ padding-top: 20px;
 #button{
 	font-family: helvetica;
 	color: white;
-	padding:13px;
-	padding-left: 16px;
-	padding-right: 16px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 18px;
+	padding-right: 18px;
 	margin-top: 30px;
 	background-color:#f43944;
 	float: right;
@@ -229,64 +245,80 @@ padding-top: 20px;
 
 }
 
+#advertisement {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 400px;
+}
 
 
 /*---------------three homepage squares------*/
 
 #sub-bar {
-	text-decoration: none;
+	margin-bottom: 15%;
+	margin-left: auto;
+	margin-right: auto;
+
 
 }
 	#sub-bar ul li a {
-	width: 300px;
-	height: 134px; 
-	display: inline;
+	width: auto;
+	height: auto; 
+/* 	display: inline; */
 	float: left;
-	background-color: #bdcaca;
+/* 	background-color: #bdcaca; */
+/* 		background-color: #dbe3e2; */
 	text-decoration: none;
 	opacity:0.6;	
-	margin: 10px;
 }
 
 
 	#sub-bar ul li {
 	text-decoration: none;	
-	display: inline;
+	display: inline-block;
 	float: left;
+	margin-right: 10px; 
+ 	margin-left: 10px;
 
 }
 
 #subcontainer {
+	
 	width: 960px;
 	height: 134px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 375px;
 }
+
 #sub-bar ul li a:hover {
-	opacity:1;		
+	opacity:1;	
+	border-top: 6px solid #e64148;	
+	
 }
 
 
 /*---------------footer------*/
 
 footer {
+	position: inherit;
+	display: block;
 	min-width: 240px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	height: auto;
+	height: 200px;
 	margin-top: 20px;
-	padding-top: 20px;
-
+	
 
 }
 
 footer p {
 	font-family: helvetica;
-	font-size: 11pt;
+	font-size: 10pt;
 	color: #343a3a;
+	color: white;
 	font-weight: 100;
 	padding-left: 20px;
 }
@@ -294,53 +326,113 @@ footer p {
 footer h3 {
 	padding-left: 20px;
 	padding-bottom: 5px;
+	color: white;
 }
 
-footer p:hover {
-	
-}
 
 
 #pages {
 	float: left;
 	width: 100%;
 	width: 319px;
-	border-right: solid 1px #bdcaca;
-	margin-top: 60px;
-	margin-bottom: 20px;
+/* 	border-right: solid 1px #bdcaca; */
+/* 	margin-top: 60px; */
+	padding-bottom: 20px;
+	border-top: solid 6px #343a3a;
+	background-color: #bdc9c9;
+	height: 200px;
+	margin-top: 100px;
 
 }
 
 #socialnetwork {
+		height: 200px;
 		float: left;
 		width: 100%;
 		width: 319px;
-				margin-top: 60px;
-		margin-bottom: 20px;
+/* 		margin-top: 60px; */
+		padding-bottom: 20px;
+		border-top: solid 6px #343a3a;
+		background-color: #bdc9c9;
+		margin-top: 100px;
 
 }
 
 #getintouch {
-		border-left: solid 1px #bdcaca;
+/* 		border-left: solid 1px #bdcaca; */
+		height: 200px;
 		float: left;
 		width: 100%;
 		width: 319px;
-		margin-top: 60px;
-		margin-bottom: 20px;
+/* 		margin-top: 60px; */
+		padding-bottom: 20px;
+		border-top: solid 6px #343a3a;
+		background-color: #bdc9c9;
+		margin-top: 100px;
+
 
 }
 
 
-/*---------------our company----------------------------------------------------------------------------*/
 
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------our company----------*/
+
+
+
+
+#subnav{
+
+	width: 100%;
+	height: 30px;
+	background-color: #bdcaca;
+	text-align: center;
+	float: left;
+	font-family: helvetica;
+	font-weight: 200;
+	margin-top: 25px;
+	padding-top: 10px;
+}
+
+#subnav li {
+	display: inline;
+	margin:10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+/* 	background-color: #343a3a; */
+/* 	border: 1px solid #343a3a; */
+
+}
+
+#subnav li a {
+	color:white;	
+}
+
+#subnav li a:hover{
+	color:#e64148;	
+	
+}
+
+#companydiagram {
+	float: left;
+
+}
 
 
 #companycontent {
 	max-width: 960px;
+/* 	max-width: 480px;  */
 	min-width: 320px;
-	margin-top: 180px;
 	margin-left: auto;
 	margin-right: auto;
+	float: left;
+
 }
 
 
@@ -348,15 +440,41 @@ footer p:hover {
  font-family: helvetica;
  font-size: 12pt;
  color:#343a3a;
- padding-bottom:10px;
+/*  margin-bottom: 100px; */
+}
+
+#companycontent h1{
+ font-family: helvetica;
+ font-size: 24pt;
+ color:#343a3a;
+ margin-top: 30px;
+ text-shadow: none;
+ font-weight: 500;
+}
+
+#companycontent p{
+ font-family: helvetica;
+ font-size: 12pt;
+ color:#343a3a;
+ line-height: 15pt;
+ margin-top: 12pt;
+}
+
+#companyinfo{
+	width: 480px;
+	height: 480px;
+	float: left;
+	padding-top: 10px;
 }
 
 
 
 #leadership {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 100px;
+	margin-bottom: 380px;
 	width: 100%;
+	min-width: 320px;
+	max-width: 960px;
 	height: 400px;
 	margin-left: auto;
 	margin-left: auto;	
@@ -368,7 +486,7 @@ margin-top: 5px;
 }
 
 
-#leadershipprodile {
+#leadershipprofile {
 	display: inline-block;
 }
 
@@ -385,8 +503,7 @@ margin-top: 5px;
 	width: 240px;
 	float: left;
 	margin-left: 35px;
-	margin-right: 35px;
-	
+	margin-right: 35px;	
 }
 
 #Mike {
@@ -396,7 +513,14 @@ margin-top: 5px;
 	margin-right: 35px;
 }
 
-clients {
+
+
+#clients {
+	width: 100%;
+	min-width: 320px;
+	max-width: 960px;
+	height: auto;
+	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -405,24 +529,64 @@ clients {
 	display: inline-block;
 	float: left;
 	padding: 60px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	height: 75px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 	top: 50%;
 	float: left;
 }
-
+#clients hr{
+margin-top: 5px;
+width: 100%;
+	min-width: 320px;
+	max-width: 960px;
+	position: relative;
+}
 
 #clientlist li img {
-	opacity: .4;
+	opacity: .5;
 }
 
 #clientlist li img:hover {
-	opacity: 100%;
+	opacity: 1;
 	}
 
 
-/*----------------------------Get in touch-------------------------*/
+
+#partners {
+	width: 100%;
+	min-width: 320px;
+	max-width: 960px;
+	height: 200px;
+	margin-top:60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#partnerlist li a{
+	display: inline-block;
+	float: left;
+	padding: 60px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 60px;
+	top: 50%;
+	float: left;
+	}
+
+#partners hr{
+margin-top: 5px;
+}
+
+#partnerlist li img {
+	opacity: .5;
+}
+
+#partnerlist li img:hover {
+	opacity: 1;
+	}
+
+
+/*--------------------------------------------------------------Get in touch-------------------------*/
 
 
 #contact-info {
@@ -443,6 +607,7 @@ height: 100%;
 	font-weight: 500;
 	color: #343a3a;
 	text-shadow: 0px 0px 0px #000;
+	margin-bottom: 5px;
 
 }
 
@@ -475,14 +640,13 @@ height: 100%;
 
 label {
 	display: none;
-	
-float: left; 
+	float: left; 
 	clear:left; 
 	margin: 11px 20px 0 0; 
 	width: 95px;
 	text-align: right; 
 	font-size: 16px; 
-	color: #445668; 	
+	color: #f3f3f3; 	
 }
 
 input {
@@ -522,9 +686,15 @@ input:focus, textarea:focus {
 }
 
 input[type=submit] {
-	width: 10px; 
-	height: 10px; 
+	width: 5px; 
+	height: 30px; 
 	float: right; 
-	background-color: #e84149;
+	background-color: #dbe3e3;
 	border: none;
+}
+
+#submit {
+	padding: 5px;
+	background-color: #e84149;
+
 }
